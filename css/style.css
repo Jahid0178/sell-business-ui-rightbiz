@@ -217,6 +217,14 @@ svg {
   margin-bottom: 0.5rem;
 }
 
+.rating-sec {
+  margin-top: 1rem;
+}
+
+.rating-sec svg {
+  fill: #FF9C00;
+}
+
 /* Success seller section end here */
 
 /* Business worth section start here */

@@ -49,6 +49,10 @@ img {
   margin-bottom: 2rem;
 }
 
+svg {
+  margin-right: 0.5rem;
+}
+
 /* Hero Section */
 .hero-section {
   background: #225fac;
@@ -68,6 +72,29 @@ img {
   font-size: 1.5rem;
   margin: 1rem 0;
 }
+
+/* Recent business section start here */
+
+.recent-business-section {
+  padding: 5rem 0;
+}
+
+.carousel-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.carousel-desc {
+  padding-top: 0.5rem;
+}
+
+.carousel-desc p {
+  display: flex;
+  align-items: center;
+}
+
+/* Recent business section end here */
 
 /* Ads section start here */
 
@@ -91,6 +118,11 @@ img {
 
 .featured-list {
   padding-top: 1rem;
+}
+
+.featured-list li p {
+  display: flex;
+  align-items: flex-start;
 }
 
 /* Ads section end here */
@@ -203,6 +235,12 @@ img {
 
 .selling-business-benefit {
   padding-top: 1rem;
+}
+
+.selling-business-benefit li p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .selling-business-container>div {

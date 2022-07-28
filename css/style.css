@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit',
+    sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  font-size: 0.875rem;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  justify-content: center;
+  box-shadow: inset 0 0 10px rgb(0 0 0 / 10%);
+  white-space: nowrap;
+}
+
+.btn-green {
+  background: #15be53;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.title-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background: #225fac;
+  color: #fff;
+  padding: 8rem 0;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Ads section start here */
+
+.advert-main-section {
+  padding: 5rem 0;
+}
+
+.ads-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.ads-demo img {
+  height: 100%;
+}
+
+.showcase-desc p {
+  margin: 1.5rem 0;
+}
+
+.featured-list {
+  padding-top: 1rem;
+}
+
+/* Ads section end here */
+
+/* Business process section start here */
+
+.business-process-section {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.business-process-section h2 {
+  margin-bottom: 3rem;
+}
+
+.business-process-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.icon-box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0px 4px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.icon-box img {
+  width: 60px;
+  height: 60px;
+}
+
+/* Business process section end here */
+
+/* Success seller section start here */
+
+.success-seller-section {
+  background: #F6F6F6;
+  padding: 5rem 0;
+}
+
+.seller-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.seller-card-body {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 3px;
+}
+
+.user-avatar {
+  width: 150px;
+  margin-top: -5rem;
+  margin-bottom: 1rem;
+}
+
+.seller-review h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Success seller section end here */
+
+/* Business worth section start here */
+
+.business-worth-section {
+  padding: 5rem 0;
+}
+
+.business-worth-content {
+  text-align: center;
+}
+
+.business-worth-content p {
+  padding: 1rem 0;
+}
+
+/* Business worth section end here */
+
+
+/* selling business section start here */
+
+.selling-business-section {
+  padding: 5rem 0;
+  background: #f6f6f6;
+  text-align: center;
+}
+
+.selling-business-container h2 {
+  color: #225fac;
+  font-size: 1.8rem;
+}
+
+.selling-business-container .short-text {
+  color: #FF9C00;
+}
+
+.selling-business-container p {
+  margin: 0.5rem 0;
+}
+
+.selling-business-benefit {
+  padding-top: 1rem;
+}
+
+.selling-business-container>div {
+  margin-top: 2rem;
+}
+
+.price-list {
+  font-size: 0.8rem;
+}
+
+/* selling business section end here */
+
+/* business agent section start here */
+
+.business-agent-section {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.business-agent-section h2 {
+  padding-bottom: 1rem;
+}
+
+/* business agent section end here */

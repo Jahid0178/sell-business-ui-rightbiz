@@ -109,6 +109,7 @@ img {
 .business-process-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .icon-box {
@@ -226,3 +227,27 @@ img {
 }
 
 /* business agent section end here */
+
+
+/* Responsive */
+
+@media only screen and (max-width: 992px) {
+  .ads-container {
+    grid-template-columns: 1fr;
+  }
+
+  .business-process-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .business-process-container {
+    grid-template-columns: 1fr;
+  }
+
+  .seller-card-container {
+    grid-template-columns: 1fr;
+    gap: 81px;
+  }
+}

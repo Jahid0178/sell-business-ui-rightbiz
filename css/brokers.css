@@ -107,6 +107,7 @@ img {
 
 .hero-section {
   padding: 8rem 0;
+  background: #F6F6F6;
 }
 
 .hero-content {
@@ -135,6 +136,11 @@ img {
 /* Partner Section End Here */
 
 /* Brokers Section Start Here */
+
+.brokers-business-section {
+  background: #F6F6F6;
+  padding: 3rem 0;
+}
 
 .brokers-condition-section {
   max-width: 550px;
@@ -205,6 +211,7 @@ form {
 
 .private-advertise-section {
   padding: 5rem 0;
+  background: #f6f6f6;
 }
 
 .private-advertise-content {

@@ -137,7 +137,8 @@ img {
 /* Brokers Section Start Here */
 
 .brokers-condition-section {
-  width: 45%;
+  max-width: 550px;
+  width: 100%;
   margin: auto;
 }
 
@@ -165,7 +166,8 @@ img {
 /* Form Section Start Here */
 
 form {
-  width: 60%;
+  max-width: 550px;
+  width: 100%;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -213,3 +215,20 @@ form {
 }
 
 /* Private advertise section end here */
+
+/* Responsive */
+@media only screen and (max-width: 992px) {
+  .partner-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  .partner-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .private-advertise-content {
+    flex-direction: column;
+  }
+}

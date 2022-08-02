@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit',
+    sans-serif;
+}
+
+:root {
+  --grey-blue: #788aa1;
+  --grey-blue-l-1: #ebedf1;
+  --blue: #225fac;
+  --blue-l-1: #c6e0ff;
+  --blue-d-1: #1a4a86;
+  --blue-d-2: #13355f;
+  --white: #fff;
+  --white-d-1: #f5f5f5;
+  --white-d-2: #f5f8fc;
+  --orange: #ff9c00;
+  --orange-l-1: #ffac29;
+  --orange-l-2: #fff0d9;
+  --orange-d-1: #d18000;
+  --grey: #ededed;
+  --grey-d-1: #77838e;
+  --green: #15be53;
+  --green-l-1: #d7eadc;
+  --green-d-1: #129341;
+  --green-d-2: #06d853;
+  --green-d-3: #06d85315;
+  --black: #000;
+  --dark: #263238;
+  --red: #ff4040;
+  --red-d-1: #d72e2e;
+  --bg: #f6f7f9;
+  --deepwhite: #d3d6d7;
+  --lgwhite: #f5f8fc;
+  --black: #333;
+  --black: #000;
+  --lgblack: #abafc21f;
+  --dpblack: #263238;
+  --grey: #eee;
+  --deepgray: rgb(185, 185, 185);
+}
+
+/* Reuseable components */
+
+img {
+  width: 100%;
+}
+
+.heading-title {
+  text-align: center;
+}
+
+.btn {
+  font-size: 0.875rem;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  color: var(--white) !important;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  justify-content: center;
+  box-shadow: inset 0 0 10px rgb(0 0 0 / 10%);
+  white-space: nowrap;
+  font-family: "Outfit",
+    sans-serif;
+}
+
+.btn-green {
+  background-color: var(--green);
+}
+
+/* Reuseable components */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.form-control {
+  padding: 1.25rem 1.5rem 0.25rem;
+  border-radius: 2rem;
+  border: 1px solid var(--deepgray);
+  outline: none;
+  line-height: 1.5;
+  transition: .2s;
+  font-family: "Outfit",
+    sans-serif;
+}
+
+.form-control:focus {
+  border: 1px solid var(--blue);
+  box-shadow: 0 0 0 4px var(--grey-blue-l-1);
+}
+
+
+/* Hero Section Start Here */
+
+.hero-section {
+  padding: 8rem 0;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  color: var(--blue);
+}
+
+/* Hero Section End Here */
+
+/* Partner Section Start Here */
+
+.partner-section {
+  padding: 4rem 0;
+}
+
+.partner-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+/* Partner Section End Here */
+
+/* Brokers Section Start Here */
+
+.brokers-condition-section {
+  width: 45%;
+  margin: auto;
+}
+
+.brokers-condition-content {
+  margin: 1rem 0;
+}
+
+.brokers-condition-content h3 {
+  margin-bottom: 1rem;
+}
+
+.brokers-image {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.brokers-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Brokers Section End Here */
+
+/* Form Section Start Here */
+
+form {
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.form-section {
+  padding-top: 3rem;
+}
+
+
+.form-grp {
+  margin-bottom: 1rem;
+}
+
+.form-grp label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-agreement-section {
+  margin-top: 1rem;
+  text-align: center;
+  color: #9C9C9C;
+}
+
+.form-agreement-section p {
+  margin: 1rem 0;
+}
+
+/* Form Section End Here */
+
+
+/* Private advertise section start here */
+
+.private-advertise-section {
+  padding: 5rem 0;
+}
+
+.private-advertise-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Private advertise section end here */
